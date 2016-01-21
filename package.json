@@ -1,0 +1,26 @@
+{
+  "name": "module-bojler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf ./dist && mkdir dist",
+    "build": "webpack -p --progress --colors --config webpack.config.js",
+    "build_nc": "webpack --progress --colors --config webpack.config.js",
+    "postbuild": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Primoz Susa <primoz.susa@niceclouds.com> (niceclouds.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.4.5",
+    "babel-loader": "6.2.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "babel-preset-stage-0": "6.3.13",
+    "webpack": "1.12.11"
+  },
+  "dependencies": {
+    "react": "0.14.6"
+  }
+}
