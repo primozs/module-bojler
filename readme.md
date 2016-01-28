@@ -5,7 +5,7 @@
 4. Run `npm run build` for development `npm run dev`
 5. Runing tests `npm run test`
 
-## Create module
+## Link module in another project
 ```
 ~/next.to.app $ cd ./module-bojler
 ~/module-bojler$ npm link
@@ -21,5 +21,6 @@
 
 # references
 - <http://slides.com/linclark/webpack#/31>
+- <https://egghead.io/series/how-to-write-an-open-source-javascript-library>
 - [Start your own JavaScript library using webpack and ES6](http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6) 
 - [distributing react components](http://krasimirtsonev.com/blog/article/distributing-react-components-babel-browserify-webpack-uglifyjs)
