@@ -14,9 +14,10 @@
 ~/app $ npm link module-bojler
 ```
 
-## gitignore
-- One option is to have lib in gitignore and commit it to separate repository 
-or branch.
+## lib in git
+- One option is to have build files also in git
+- Other option is to have lib in gitignore and commit lib it to separate branch.
+- [example](https://github.com/grommet/grommet/blob/master/gulpfile-grommet-release.js#L131)
 
 # references
 - <http://slides.com/linclark/webpack#/31>
