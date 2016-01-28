@@ -1,3 +1,5 @@
+Javascript npm module boilerplate.
+ 
 ## Usage
 1. setup library name in webpack.config.js
 2. in package.json setup `main` property to match library name
@@ -12,6 +14,16 @@
 
 ~/module-bojler$ cd ../app
 ~/app $ npm link module-bojler
+```
+After linking local development module with other project and you get to double 
+react loaded instance problem. Then in the project that is using this localy linked
+module set webpack:
+```
+  resolve: {
+    alias: {
+      react: path.resolve('./node_modules/react')
+    }
+  },
 ```
 
 ## lib in git
