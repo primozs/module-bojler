@@ -1,9 +1,11 @@
 import React from 'react';
 
 const HelloComponent = React.createClass({
+  displayName: 'HelloComponent',
+
   render() {
     return (
-      <h1>Hello world</h1>
+      <h1>Hello bojler module</h1>
     );
   }
 });
